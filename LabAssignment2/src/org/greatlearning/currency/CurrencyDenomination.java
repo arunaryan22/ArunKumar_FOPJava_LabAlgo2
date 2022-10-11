@@ -19,10 +19,6 @@ public class CurrencyDenomination {
 		SortingOfCurrency sorting = new SortingOfCurrency();
 		sorting.sort(currencyDenomination, 0, currencyDenomination.length - 1);
 
-		System.out.println("\nAvailable currency Denominatios in sorted order are:\n");
-		for (int i = 0; i < currencyDenomination.length; i++) {
-			System.out.print(currencyDenomination[i] + " ");
-		}
 		System.out.println("\nEnter the amount you want to pay");
 		int amount = sc.nextInt();
 		
